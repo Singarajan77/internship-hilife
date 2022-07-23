@@ -1,0 +1,17 @@
+*
+{
+    background-color: darksalmon;
+    font-size: 20px;
+}
+
+p::first-latter
+{
+    font-size: 40px;
+}
+
+h1:hover{
+    color: blueviolet;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: sans-serif;
+}

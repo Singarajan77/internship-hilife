@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #e72a2a;
+  padding: 10px;
+  flex: 50%;
+  border-style: dotted;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+  border-style: dotted;
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Responsive Flexbox</h1>
+
+<p>Web design and development is an umbrella term that describes the process of creating a website. 
+   Like the name suggests, it involves two major skill sets: web design and web development.
+   Web design determines the look and feel of a website, while web development determines how it functions.
+
+    Because there isn’t always a hard line that separates the two roles, the titles are often used interchangeably. As the web continues to evolve, so do the roles.</p>
+<p><b>Search Web Development New York, Top 10 Rated Web Results from Trusted Internet Sources.
+      Web Development New York, Top Information From Trusted Sources, Get Expert...
+      Web designing is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience.
+      Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.
+</b></p>
+
+<div class="flex-container">
+  <div class="flex-item-left">1</div>
+  <div class="flex-item-right">2</div>
+  <div class="flex-item-left">3</div>
+  <div class="flex-item-right">4</div>
+  <div class="flex-item-left">5</div>
+  <div class="flex-item-right">6</div>
+  <div class="flex-item-left">7</div>
+  <div class="flex-item-right">8</div>
+  <div class="flex-item-left">9</div>
+
+
+  
+</div>
+
+</body>
+</html>
